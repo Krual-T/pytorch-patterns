@@ -1,16 +1,16 @@
 {
   "coverage": {
     "skills": 314,
-    "withTriggers": 34
+    "withTriggers": 35
   },
-  "generatedAt": "2026-10-30T00:01:34.569Z",
+  "generatedAt": "2026-11-06T09:31:13.571Z",
   "id": "skill-triggers@1",
   "model": {
     "effort": null,
     "id": "hand-seeded",
     "source": "manual-curation-pending-regeneration"
   },
-  "registryDigest": "6f213dc845937b4093bc018d041b25b538d88d78451b9d799ad614989b360ee4",
+  "registryDigest": "0f10af2b2ad8ff7ad115de2252dfe1f49e9fdfa4f6d43d6673e89b1146eb31e9",
   "schemaVersion": 1,
   "triggers": {
     "skill:agent-runtime-gateway-smoke-test": [
@@ -220,6 +220,20 @@
       "coverage python",
       "tdd python"
     ],
+    "skill:pytorch-patterns": [
+      "organize pytorch project structure",
+      "refactor pytorch training pipeline",
+      "review pytorch model and dataset",
+      "fix pytorch training reproducibility",
+      "pytorch checkpoint resume",
+      "lightning training organization",
+      "lightning cli yaml configuration",
+      "hydra experiment configuration",
+      "tensorboard training logs",
+      "mlflow experiment tracking",
+      "accelerate custom training loop",
+      "pytorch gradient accumulation"
+    ],
     "skill:redis-patterns": [
       "cache aside pattern",
       "distributed lock",
@@ -305,5 +319,5 @@
       "before creating a pr"
     ]
   },
-  "triggersDigest": "953728cb51ef7726f8a4969efecaec294d37772fcddf8544cd9ee45bff4945ee"
+  "triggersDigest": "fb60a525661eae20ae9a3e183096ad43dfaeb2899e97edd97a7b35dfb40dd762"
 }
